@@ -36,7 +36,7 @@ function displayCourseCodes(filteredCourses) {
     filteredCourses.forEach(course => {
         let courseBox = document.createElement("div");
         courseBox.textContent = `${course.subject} ${course.number}`;
-        courseBox.style.backgroundColor = course.completed ? "green" : "red";
+        courseBox.style.backgroundColor = course.completed ? "green" : "firebrick";
         courseBox.style.color = "white";
         courseBox.style.textAlign = "center";
         courseBox.style.padding = "10px";
