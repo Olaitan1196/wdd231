@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+img[alt="Olaitan E. Omoniyi's Profile Picture"] {
+  width: 100px;
+  height: 150px;
+}
+
+.footer{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+img[alt="Nigeria's picture"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Hide menu by default */
+nav ul {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+/* Show menu when the "open" class is added */
+nav ul.open {
+    display: flex;
+}
+
+/* Style the menu button */
+#menu-toggle {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style for small screens */
+@media (min-width: 768px) {
+    #menu-toggle {
+        display: none; /* Hide button on larger screens */
+    }
+    nav ul {
+        display: flex; /* Show menu normally on larger screens */
+        flex-direction: row;
+    }
+}

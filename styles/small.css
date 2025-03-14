@@ -1,0 +1,126 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #1c3d5a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+nav {
+    display: none;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+
+.menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+nav ul.show {
+    display: flex;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Spacing between sections */
+    width: 100%;
+}
+.course-work{
+    width: 60%;
+}
+.osun{
+    width: 30%;
+}
+
+.course-work .osun .web-certificate section {
+    flex: 1; /* Make both sections take equal width */
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    gap:10px;
+}
+
+.web-certificate {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%; /* Make it span the full width */
+}
+
+h2 {
+    background-color: #003366; /* Dark blue heading */
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1c3d5a;
+    color: white;
+}
