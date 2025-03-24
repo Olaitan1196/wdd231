@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const businessCard = document.createElement('article');
             businessCard.classList.add('business');
             businessCard.innerHTML = `
-                <img src="images/${member.image}" alt="${member.name} Logo">
+                <img src="images/${member.image}" alt="${member.name} Logo" class="business-logo">
                 <h2>${member.name}</h2>
                 <p>${member.description}</p>
                 <p>Address: ${member.address}</p>

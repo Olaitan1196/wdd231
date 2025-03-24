@@ -56,7 +56,7 @@ nav a {
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* Grid layout on desktop */
-    background-color: #2f086e;
+    background-color:#4B006E;
     color: white;
     padding: 20px;
     height: 150px;
@@ -75,6 +75,12 @@ footer {
 .social{
     height: 50px;
     width: 50px;
+}
+
+.business-logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 70px;
 }
 .home {
     display: flex;

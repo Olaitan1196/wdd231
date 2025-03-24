@@ -94,10 +94,40 @@ main {
 }
 
 footer {
-    background-color: #2f086e;
+    background-color:#4B006E ;
     color: white;
     padding: 20px;
     display: flex;
     flex-direction: column; /* Stack footer sections vertically on mobile */
     text-align: center;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.social{
+    height: 50px;
+    width: 50px;
+}
+
+.business-logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #4B006E;
+    color: white;
+    padding: 10px;
 }

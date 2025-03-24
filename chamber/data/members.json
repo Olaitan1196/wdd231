@@ -4,7 +4,7 @@
       "address": "12 Innovation Street, Timbuktu",
       "phone": "+223 123 4567",
       "website": "https://globaltech.com",
-      "image": "globaltech.png",
+      "image": "globaltech.jpeg",
       "membershipLevel": 3,
       "description": "Leading tech company specializing in software development."
     },
@@ -13,7 +13,7 @@
       "address": "Market Square, Timbuktu",
       "phone": "+223 987 6543",
       "website": "http://timbuktulocal.com",
-      "image": "localmarket.png",
+      "image": "localmarket.jpeg",
       "membershipLevel": 1,
       "description": "Showcasing local crafts and goods."
     },
@@ -22,7 +22,7 @@
       "address": "Oasis Road, Timbuktu",
       "phone": "+223 555 1212",
       "website": "https://desertoasisresort.com",
-      "image": "oasisresort.png",
+      "image": "oasisresort.jpeg",
       "membershipLevel": 2,
       "description": "Luxury resort offering unique desert experiences."
     },
@@ -40,7 +40,7 @@
       "address": "Adventure Lane, Timbuktu",
       "phone": "+223 222 3333",
       "website": "http://timbuktuadventures.com",
-      "image": "timbuktuadventures.png",
+      "image": "timbuktuadventures.jpeg",
       "membershipLevel": 1,
       "description": "Offering guided tours and desert excursions."
     },
