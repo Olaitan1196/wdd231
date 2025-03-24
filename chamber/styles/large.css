@@ -1,0 +1,96 @@
+/* desktop.css */
+header {
+    background-color: #4B006E;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+    height: 150px;
+}
+
+.heading{
+    font-size: 0.5em;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.search-icon{
+    display: none;
+}
+
+nav ul {
+    display: flex; /* Display horizontally on desktop */
+    justify-content: flex-end; /* Align to right */
+    text-decoration: none;
+    list-style: none;
+    margin-left: 250%;
+    gap: 50px;
+    
+}
+
+nav a {
+    display: flex;   
+    color: white;
+    text-decoration: none;
+}
+.hamburger-menu {
+    display: none; /* Hidden on desktop */
+}
+
+.business-listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grid layout on desktop */
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Grid layout on desktop */
+    background-color: #2f086e;
+    color: white;
+    padding: 20px;
+    height: 150px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.social{
+    height: 50px;
+    width: 50px;
+}
+.home {
+    display: flex;
+    flex-direction: column; /* Stack business listings vertically on mobile */
+    gap: 20px;
+}
+.event {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #4B006E;
+    color: white;
+    padding: 10px;
+}

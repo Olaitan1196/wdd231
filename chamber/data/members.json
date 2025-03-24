@@ -1,0 +1,65 @@
+[
+    {
+      "name": "Global Tech Solutions",
+      "address": "12 Innovation Street, Timbuktu",
+      "phone": "+223 123 4567",
+      "website": "https://globaltech.com",
+      "image": "globaltech.png",
+      "membershipLevel": 3,
+      "description": "Leading tech company specializing in software development."
+    },
+    {
+      "name": "Timbuktu Local Market",
+      "address": "Market Square, Timbuktu",
+      "phone": "+223 987 6543",
+      "website": "http://timbuktulocal.com",
+      "image": "localmarket.png",
+      "membershipLevel": 1,
+      "description": "Showcasing local crafts and goods."
+    },
+    {
+      "name": "Desert Oasis Resort",
+      "address": "Oasis Road, Timbuktu",
+      "phone": "+223 555 1212",
+      "website": "https://desertoasisresort.com",
+      "image": "oasisresort.png",
+      "membershipLevel": 2,
+      "description": "Luxury resort offering unique desert experiences."
+    },
+      {
+      "name": "Mali Trading Co.",
+      "address": "Trade Center, Timbuktu",
+      "phone": "+223 800 9090",
+      "website": "http://malitrading.com",
+      "image": "malitrading.png",
+      "membershipLevel": 3,
+      "description": "Importer and exporter of local goods."
+    },
+    {
+      "name": "Timbuktu Adventures",
+      "address": "Adventure Lane, Timbuktu",
+      "phone": "+223 222 3333",
+      "website": "http://timbuktuadventures.com",
+      "image": "timbuktuadventures.png",
+      "membershipLevel": 1,
+      "description": "Offering guided tours and desert excursions."
+    },
+        {
+      "name": "Golden Sands Hotel",
+      "address": "Hotel Road, Timbuktu",
+      "phone": "+223 444 5555",
+      "website": "https://goldensandshotel.com",
+      "image": "goldensands.png",
+      "membershipLevel": 2,
+      "description": "A comfortable hotel in the heart of Timbuktu."
+    },
+        {
+      "name": "Savanna Imports",
+      "address": "Import Street, Timbuktu",
+      "phone": "+223 666 7777",
+      "website": "http://savannaimports.com",
+      "image": "savannaimports.png",
+      "membershipLevel": 3,
+      "description": "Specializing in the importation of various goods."
+    }
+  ]

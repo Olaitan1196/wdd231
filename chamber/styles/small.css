@@ -1,0 +1,103 @@
+/* mobile.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4B006E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: none; /* Hidden by default for mobile */
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    display: flex;;
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger-menu {
+    display: block; /* Visible for mobile */
+}
+
+nav ul.show {
+    display: flex;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.home {
+    display: flex;
+    flex-direction: column; /* Stack business listings vertically on mobile */
+    gap: 20px;
+}
+.event {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.keynote-tickets {
+    position: relative;
+    top: -50px;
+    left: 80%;
+}
+
+.business-listings {
+    display: flex;
+    flex-direction: column; /* Stack business listings vertically on mobile */
+    gap: 20px;
+}
+
+.business {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+footer {
+    background-color: #2f086e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack footer sections vertically on mobile */
+    text-align: center;
+}
