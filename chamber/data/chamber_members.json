@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Tech Solutions Inc.",
+        "image": "globaltech.jpeg",
+        "phone": "123-456-7890",
+        "address": "123 Main St, Tech City",
+        "website": "https://techsolutions.com",
+        "membership": "Gold"
+    },
+    {
+        "name": "Green Energy Ltd.",
+        "image": "green-energy.png",
+        "phone": "555-123-4567",
+        "address": "456 Eco Blvd, Solar Town",
+        "website": "https://greenenergy.com",
+        "membership": "Silver"
+    },
+    {
+        "name": "Fast Delivery Corp.",
+        "image": "fast-logo.png",
+        "phone": "789-654-3210",
+        "address": "789 Expressway, Speed City",
+        "website": "https://fastdelivery.com",
+        "membership": "Bronze"
+    }
+]
