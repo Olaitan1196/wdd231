@@ -1,3 +1,37 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const navUl = document.querySelector('nav ul');
+    const currentYear = document.getElementById('currentYear');
+    const lastModified = document.getElementById('lastModified');
+    const businessListings = document.querySelector('.business-listings'); // Select the business listings container
+
+    hamburgerMenu.addEventListener('click', () => {
+        navUl.classList.toggle('show');
+    });
+
+    currentYear.textContent = new Date().getFullYear();
+    lastModified.textContent = document.lastModified;
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.querySelector(".hamburger-menu");
+    const navList = document.querySelector("nav ul");
+    const links = document.querySelectorAll("nav ul li a");
+
+    // Toggle menu visibility on small screens
+    menuButton.addEventListener("click", function () {
+        navList.classList.toggle("open");
+    });
+
+    // Highlight the current page
+    links.forEach(link => {
+        if (link.href === window.location.href) {
+            link.classList.add("active");
+        }
+    });
+});
+
+
 async function getWeather() {
     const apiKey = "bc46beba003f75125c77f255a378c57d";
     const city = "Lagos"; // Replace with chamber location
