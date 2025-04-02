@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 async function getWeather() {
     const apiKey = "bc46beba003f75125c77f255a378c57d";
     const city = "Lagos"; // Replace with chamber location
-    const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apiKey}`;
+    const url = `//api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apiKey}`;
 
     try {
         const response = await fetch(url);
