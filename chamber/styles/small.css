@@ -111,7 +111,9 @@ main {
 
 footer {
     background-color:#4B006E ;
-    color: white;
+    
+    margin-top: 300px;
+    color: rgb(19, 16, 16);
     padding: 20px;
     display: flex;
     flex-direction: column; /* Stack footer sections vertically on mobile */

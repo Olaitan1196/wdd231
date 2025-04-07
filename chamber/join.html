@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Timbuktu Chamber of Commerce Home Page</title>
+    <meta name="description" content="Timbuktu Chamber of Commerce - Connecting businesses in Timbuktu.">
+    <meta name="author" content="Your Full Name">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Timbuktu Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/Olaitan1196/wdd231/blob/main/chamber/images/social-share.jpeg"> 
+    <meta property="og:url" content="https://olaitan1196.github.io/wdd231//chamber/directory.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css" media="screen and (max-width: 767px)">
+    <link rel="stylesheet" href="styles/large.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="styles/join.css">
+    
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="Timbuktu Chamber of Commerce Logo">
+            <h1>Timbuktu<br> <span class="heading">Chamber of Commerce</span></h1>
+        </div>
+        <nav>
+            <button class="hamburger-menu">☰</button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+        <div class="search-icon">🔍</div>
+    </header>
+    <main>
+        <form method="get" action="thankyou.html">
+          <label>
+            First Name:
+            <input type="text" name="firstName" title="First Name" required autocomplete="given-name" />
+          </label>
+    
+          <label>
+            Last Name:
+            <input type="text" name="lastName" title="Last Name" required autocomplete="family-name" />
+          </label>
+    
+          <label>
+            Organizational Title:
+            <input type="text" name="orgTitle" title="Organizational Title" pattern="[A-Za-z\- ]{7,}" autocomplete="organization-title" />
+          </label>
+    
+          <label>
+            Email:
+            <input type="email" name="email" title="Email" required autocomplete="email" placeholder="you@example.com" />
+          </label>
+    
+          <label>
+            Mobile Phone:
+            <input type="tel" name="phone" title="Mobile Phone" required autocomplete="tel" />
+          </label>
+    
+          <label>
+            Organization Name:
+            <input type="text" name="orgName" title="Organization Name" required autocomplete="organization" />
+          </label>
+    
+          <label>
+            Membership Level:
+            <select name="membership" title="Membership Level">
+              <option value="np">NP Membership (Free)</option>
+              <option value="bronze">Bronze Membership</option>
+              <option value="silver">Silver Membership</option>
+              <option value="gold">Gold Membership</option>
+            </select>
+          </label>
+    
+          <label>
+            Description:
+            <textarea name="description" title="Business Description"></textarea>
+          </label>
+    
+          <input type="hidden" id="timestamp" name="timestamp" />
+    
+          <input type="submit" value="Join Now" />
+        </form>
+    
+        <section id="cards">
+          <div class="membership-card">
+            <h3>NP Membership</h3>
+            <a href="#" onclick="openModal('npModal')">See Benefits</a>
+          </div>
+          <div class="membership-card">
+            <h3>Bronze Membership</h3>
+            <a href="#" onclick="openModal('bronzeModal')">See Benefits</a>
+          </div>
+          <div class="membership-card">
+            <h3>Silver Membership</h3>
+            <a href="#" onclick="openModal('silverModal')">See Benefits</a>
+          </div>
+          <div class="membership-card">
+            <h3>Gold Membership</h3>
+            <a href="#" onclick="openModal('goldModal')">See Benefits</a>
+          </div>
+        </section>
+    
+        <!-- Modals -->
+        <div id="npModal" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('npModal')">&times;</span><p>NP Membership includes free access to community events and a newsletter.</p></div></div>
+        <div id="bronzeModal" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('bronzeModal')">&times;</span><p>Bronze Membership includes all NP benefits + basic advertising.</p></div></div>
+        <div id="silverModal" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('silverModal')">&times;</span><p>Silver includes event discounts, training access, and homepage spotlight.</p></div></div>
+        <div id="goldModal" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('goldModal')">&times;</span><p>Gold has everything + premium listings and sponsor opportunities.</p></div></div>
+      </main>
+    
+      
+    <footer>
+        <section class="contact-info">
+            <p>Timbuktu Chamber of Commerce</p>
+            <p>10 Rue De La Paix</p>
+            <p>Timbuktu, Mali 999</p>
+            <p>info@timbuktucc.org</p>
+            <p>(223) 555-2300</p>
+        </section>
+        <section class="social-icons">
+            <a href="#"><img src="images/youtube-logo.jpeg" alt="YouTube" class="social"></a>
+            <a href="#"><img src="images/twitter-logo.png" alt="Twitter" class="social"></a>
+            <a href="#"><img src="images/linkedin-logo.png" alt="LinkedIn" class="social"></a>
+        </section>
+        <section class="project-info">
+            <p>WDD 231 Class Project</p>
+            <p>Olaitan Ezekiel Omoniyi</p>
+            <p>&copy; <span id="currentYear"></span> Timbuktu Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </section>
+    </footer>
+    
+</body>
+</html>

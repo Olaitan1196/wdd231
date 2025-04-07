@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Timbuktu Chamber of Commerce Home Page</title>
+    <meta name="description" content="Timbuktu Chamber of Commerce - Connecting businesses in Timbuktu.">
+    <meta name="author" content="Your Full Name">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Timbuktu Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/Olaitan1196/wdd231/blob/main/chamber/images/social-share.jpeg"> 
+    <meta property="og:url" content="https://olaitan1196.github.io/wdd231//chamber/directory.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css" media="screen and (max-width: 767px)">
+    <link rel="stylesheet" href="styles/large.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="styles/join.css">
+    <script src="scripts/thankyou.js" defer></script>
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <script scrc="scripts/join.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="Timbuktu Chamber of Commerce Logo">
+            <h1>Timbuktu<br> <span class="heading">Chamber of Commerce</span></h1>
+        </div>
+        <nav>
+            <button class="hamburger-menu">☰</button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+        <div class="search-icon">🔍</div>
+    </header>
+    <main>
+        <h2>Thank You for Joining!<br></h2>
+        <p>Here's what we got from you:</p>
+        <ul id="userInfo">
+          <li><strong>First Name:</strong> <span id="firstName"></span></li>
+          <li><strong>Last Name:</strong> <span id="lastName"></span></li>
+          <li><strong>Email:</strong> <span id="email"></span></li>
+          <li><strong>Phone:</strong> <span id="phone"></span></li>
+          <li><strong>Organization:</strong> <span id="orgName"></span></li>
+          <li><strong>Timestamp:</strong> <span id="timestamp"></span></li>
+        </ul>
+      </main>    
+    
+      
+    <footer>
+        <section class="contact-info">
+            <p>Timbuktu Chamber of Commerce</p>
+            <p>10 Rue De La Paix</p>
+            <p>Timbuktu, Mali 999</p>
+            <p>info@timbuktucc.org</p>
+            <p>(223) 555-2300</p>
+        </section>
+        <section class="social-icons">
+            <a href="#"><img src="images/youtube-logo.jpeg" alt="YouTube" class="social"></a>
+            <a href="#"><img src="images/twitter-logo.png" alt="Twitter" class="social"></a>
+            <a href="#"><img src="images/linkedin-logo.png" alt="LinkedIn" class="social"></a>
+        </section>
+        <section class="project-info">
+            <p>WDD 231 Class Project</p>
+            <p>Olaitan Ezekiel Omoniyi</p>
+            <p>&copy; <span id="currentYear"></span> Timbuktu Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </section>
+    </footer>
+    
+</body>
+</html>
