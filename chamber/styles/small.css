@@ -113,7 +113,7 @@ footer {
     background-color:#4B006E ;
     
     margin-top: 300px;
-    color: rgb(19, 16, 16);
+    color: white;
     padding: 20px;
     display: flex;
     flex-direction: column; /* Stack footer sections vertically on mobile */
@@ -288,3 +288,13 @@ li {
     color: rgb(79, 65, 65);
 }
 
+.sidebar-message {
+    background-color: #fef3c7;
+    border-left: 6px solid #f59e0b;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+  

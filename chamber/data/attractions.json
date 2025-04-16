@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Sankore Mosque",
+      "address": "Ancient Quarter, Timbuktu",
+      "description": "A UNESCO World Heritage site and center of Islamic scholarship.",
+      "image": "sankore.webp"
+    },
+    {
+      "name": "Ahmed Baba Institute",
+      "address": "Manuscript Road, Timbuktu",
+      "description": "Preserves centuries-old Islamic manuscripts.",
+      "image": "ahmedbaba.webp"
+    },
+    {
+      "name": "Timbuktu Museum",
+      "address": "Heritage Avenue, Timbuktu",
+      "description": "Showcases artifacts of Mali's rich cultural history.",
+      "image": "museum.webp"
+    },
+    {
+      "name": "Tomb of Askia",
+      "address": "Gao Road, Timbuktu",
+      "description": "A majestic pyramid-shaped tomb of the Songhai Empire ruler.",
+      "image": "askia.webp"
+    },
+    {
+      "name": "Djinguereber Mosque",
+      "address": "Center Street, Timbuktu",
+      "description": "One of the oldest mosques in West Africa, built in 1327.",
+      "image": "djinguereber.webp"
+    },
+    {
+      "name": "The Sahara Gate",
+      "address": "Desert Highway, Timbuktu",
+      "description": "Iconic gate marking entry to the vast Sahara desert.",
+      "image": "saharagate.webp"
+    },
+    {
+      "name": "Salt Caravan Market",
+      "address": "Market Road, Timbuktu",
+      "description": "Where the ancient salt trade lives on.",
+      "image": "saltmarket.webp"
+    },
+    {
+      "name": "Manuscript Library",
+      "address": "Scholar Lane, Timbuktu",
+      "description": "Houses ancient scientific and religious texts.",
+      "image": "library.webp"
+    }
+  ]
+  
