@@ -13,6 +13,7 @@ fetch('data/attractions.json')
           <h3>${attraction.name}</h3>
           <p><strong>Address:</strong> ${attraction.address}</p>
           <p>${attraction.description}</p>
+          <button class="learn-more-btn">${attraction.button}</button>
         </div>
       `;
 
@@ -23,3 +24,4 @@ fetch('data/attractions.json')
     attractionsContainer.innerHTML = `<p>Failed to load attractions. Please try again later.</p>`;
     console.error("Error loading attractions:", err);
   });
+
