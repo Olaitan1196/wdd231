@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "name": "Organic Ginger Root",
+      "image": "images/ginger.jpeg",
+      "price": "₦1,500/kg",
+      "description": "Freshly harvested ginger, great for spice and herbal remedies."
+    },
+    {
+      "id": 2,
+      "name": "Clove Spice Pack",
+      "image": "images/clove.jpeg",
+      "price": "₦2,000/500g",
+      "description": "Premium quality cloves with rich aroma and strong flavor."
+    },
+    {
+      "id": 3,
+      "name": "Bitter Leaf Bundle",
+      "image": "images/bitterleaf.jpeg",
+      "price": "₦1,000/bundle",
+      "description": "Washed and ready-for-cooking bitter leaf, full of nutrients."
+    }
+    ,
+    {
+      "id": 4,
+      "name": "Fresh Basil",
+      "image": "images/basil.jpeg",
+      "price": "₦800/bunch",
+      "description": "Aromatic basil leaves, perfect for salads and cooking."
+    },
+    {
+      "id": 5,
+      "name": "Cinnamon Sticks",
+      "image": "images/cinnamon.jpeg",
+      "price": "₦1,200/100g",
+      "description": "Natural cinnamon sticks, ideal for baking and beverages."
+    },
+    {
+      "id": 6,
+      "name": "Dried Thyme",
+      "image": "images/thyme.jpeg",
+      "price": "₦600/50g",
+      "description": "Dried thyme leaves, great for seasoning and flavoring."
+    }
+  ]
+  

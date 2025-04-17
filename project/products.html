@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse Dansuma’s range of indigenous farm products, grown with love and sustainability." />
+  <meta property="og:title" content="Dansuma Products">
+  <meta property="og:description" content="Explore a rich catalog of our organic and indigenous produce.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/products-preview.jpg">
+  <meta property="og:url" content="https://yourusername.github.io/wdd231/dansuma/products.html">
+  <link rel="icon" href="images/favicon.ico" >
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/products.css">
+  <title>Our Products | Dansuma Indigenous Farm</title>
+  <script src="scripts/products.js" type="module" defer></script>
+  <script src="scripts/main.js" type="module" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo-title">
+      <img src="images/logo.png" alt="Dansuma Farm Logo">
+      <h1>Dansuma Indigenous Farm Production</h1>
+    </div>
+    <nav class="main-nav">
+      <button id="menu-button" aria-label="Toggle navigation">☰</button>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro-products">
+      <h2>Our Indigenous Harvest</h2>
+      <p>Each product reflects our commitment to organic, traditional, and sustainable farming practices.</p>
+    </section>
+
+    <section >
+      <h3>Farm Fresh Catalog</h3>
+      <div  class="product-gallery" id="product-list">
+      <!-- JavaScript will dynamically build product cards here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Dansuma Indigenous Farm Production. All rights reserved.</p>
+    <a href="attributions.html">Attributions</a>
+  </footer>
+</body>
+</html>

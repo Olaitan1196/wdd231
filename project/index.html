@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <meta name="description" content="Dansuma Indigenous Farm Production promotes organic farming, indigenous produce, and sustainable agriculture." />
+  <meta property="og:title" content="Dansuma Indigenous Farm Production" >
+  <meta property="og:description" content="Explore sustainable farming practices, farm produce, and market insights rooted in indigenous knowledge." />
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/farm-preview.jpg">
+  <meta property="og:url" content="https://yourusername.github.io/wdd231/dansuma/" >
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/base.css" >
+  <title>Dansuma Indigenous Farm Production</title>
+  <script src="scripts/main.js" type="module" defer></script>
+  <script src="scripts/nav.js" type="module" defer></script>
+  <script src="scripts/news.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo-title">
+      <img src="images/logo.png" alt="Dansuma Farm Logo" >
+      <h1>Dansuma Indigenous Farm Production</h1>
+    </div>
+    <nav class="main-nav">
+      <button id="menu-button" aria-label="Toggle navigation">☰</button>
+      <ul id="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/farm-preview.jpg" alt="Dansuma farm landscape" class="hero-img" loading="lazy">
+      <div class="hero-text">
+        <h2>Rooted in the Land. Growing for the Future.</h2>
+        <p>Welcome to Dansuma — your partner in indigenous, organic farm produce.</p>
+      </div>
+    </section>
+  
+    <section class="highlights">
+      <h3>What We Offer</h3>
+      <div class="highlight-grid">
+        <div class="highlight-item">
+          <img src="images/ginger.jpeg" alt="Fresh ginger">
+          <h4>Organic Ginger</h4>
+          <p>Grown in nutrient-rich soil without chemical pesticides.</p>
+        </div>
+        <div class="highlight-item">
+          <img src="images/clove.jpeg" alt="Harvested clove">
+          <h4>Raw Clove</h4>
+          <p>Sourced directly from our indigenous trees in peak season.</p>
+        </div>
+        <div class="highlight-item">
+          <img src="images/bitterleaf.jpeg" alt="Bitter leaf plant">
+          <h4>Bitter Leaf</h4>
+          <p>Fresh, handpicked, and ready for your healthy dishes.</p>
+        </div>
+      </div>
+    </section>
+  
+    <section class="news-updates" id="news-section">
+      <h3>Latest from the Farm</h3>
+      <div class="news-container">
+        <!-- Dynamic news content will be injected here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Dansuma Indigenous Farm Production. All rights reserved.</p>
+    <a href="attributions.html">Attributions</a>
+  </footer>
+</body>
+</html>

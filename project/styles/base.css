@@ -1,0 +1,275 @@
+/* base.css */
+/* ----------------------------
+   RESET & BASICS
+---------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #fffdf6;
+  --primary-color: #5a3825;
+  --accent-color: #8fa34b;
+  --text-color: #2d2d2d;
+  --font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: var(--font-stack);
+  line-height: 1.6;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 0;
+  margin: 0;
+}
+
+/* ----------------------------
+   HEADER
+---------------------------- */
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-title img {
+  width: 50px;
+  height: auto;
+}
+
+.logo-title h1 {
+  font-size: 1.25rem;
+}
+
+/* ----------------------------
+   NAVIGATION
+---------------------------- */
+.main-nav {
+  margin-top: 1rem;
+}
+
+#menu-button {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+#nav-links {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+#nav-links li {
+  margin: 0.5rem 0;
+}
+
+#nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+#nav-links a.active {
+  font-weight: bold;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+/* JS will toggle this */
+.show {
+  display: flex !important;
+}
+
+/* ----------------------------
+   MAIN SECTIONS
+---------------------------- */
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.intro-products,
+.our-story,
+.our-mission,
+.meet-the-team {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.product-gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+/* ----------------------------
+   FOOTER
+---------------------------- */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: var(--accent-color);
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+/* ----------------------------
+   MEDIA QUERIES - DESKTOP VIEW
+---------------------------- */
+@media screen and (min-width: 768px) {
+  .logo-title h1 {
+    font-size: 1.75rem;
+  }
+
+  .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #menu-button {
+    display: none;
+  }
+
+  #nav-links {
+    display: flex !important;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-top: 0;
+  }
+
+  .product-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  .intro-products,
+  .our-story,
+  .our-mission,
+  .meet-the-team {
+    padding: 2rem;
+  }
+}
+
+/* === HERO SECTION === */
+.hero {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 500px;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 60, 20, 0.6);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* === HIGHLIGHTS === */
+.highlights {
+  padding: 2rem 1rem;
+  background-color: #f8f8f8;
+}
+
+.highlight-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 1rem;
+}
+
+.highlight-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.highlight-item:hover {
+  transform: translateY(-5px);
+}
+
+.highlight-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+/* === NEWS UPDATES === */
+.news-updates {
+  padding: 2rem 1rem;
+  background-color: #eef6ee;
+}
+
+.news-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.news-item {
+  background-color: white;
+  padding: 1rem;
+  border-left: 4px solid #4caf50;
+  border-radius: 5px;
+}
+
+/* === RESPONSIVE HERO === */
+@media (max-width: 600px) {
+  .hero-text {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
